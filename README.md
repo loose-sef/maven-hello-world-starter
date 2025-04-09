@@ -187,6 +187,11 @@ This will create a `fat` JAR file, which contains all the dependencies (includin
 This also adds the `org.example.Main` class as the entry point of the application (the `Main-Class` attribute in the `MANIFEST.MF` file).
 The file will be located at `target/hello-maven.jar`.
 
+Build the application again:
+```shell script
+./mvnw package
+```
+
 Try running the application again:
 
 ```shell script
